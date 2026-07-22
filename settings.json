@@ -1,0 +1,14 @@
+{
+  "serverCheckTimeout": 30000,
+  "pingTimeout": 15000,
+  "connectTimeout": 20000,
+  "checkTimeoutInterval": 20000,
+  "httpCheckTimeout": 10000,
+  "operationTimeout": 60000,
+  "skipCheckInterval": 1000,
+  "operatorCheckTimeout": 5000,
+  "sendCommandsDelay": 500,
+  "commandInterval": 300,
+  "finalCommandTimeout": 2000,
+  "webhook": ""
+}

@@ -1,0 +1,20 @@
+{
+  "name": "auto",
+  "version": "1.0.0",
+  "description": "Minecraft bot for server operations",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "mineflayer"
+  ],
+  "author": "haker",
+  "license": "ISC",
+  "dependencies": {
+    "@minescope/mineping": "^2.0.1",
+    "mineflayer": "^4.37.1"
+  }
+}

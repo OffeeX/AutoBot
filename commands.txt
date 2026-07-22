@@ -1,0 +1,17 @@
+﻿/gamerule sendCommandFeedback false
+/scoreboard objectives add asdasd dummy {"text":"FIND AND DESTROYED BY TERMINATOR DSC.GG/TERRAFORM","color":"red"}
+/scoreboard objectives setdisplay sidebar asdasd
+/team add ds_color
+/team modify ds_color color aqua
+/team join ds_color YouTube:kujos11-support-discord-https://discord.gg/DFpgjTXsn
+/scoreboard players set YouTube:kujos11-support-discord-https://discord.gg/DFpgjTXsn asdasd 1
+/worldborder set 1 0
+/execute at @a run fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:lava
+/fill 16 80 16 -8 130 -8 minecraft:lava
+/execute at @e run fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minecraft:lava
+/attribute @s scale base set 0.01
+/attribute @s max_health base set 1
+/execute as @a at @s run summon wither ~58 ~9 ~7 {"CustomName":"{\"text\":\"$$$ dsc.gg/terraform $$\",\"color\":\"red\"}","Health":1000,"Invulnerable":true,"Silent":true,"PersistenceRequired":true,"Motion":[0.0d,-4.0d,0.0d]}
+/execute as @a at @s run summon wither ~58 ~9 ~7 {"CustomName":"{\"text\":\"$$$ dsc.gg/terraform $$\",\"color\":\"red\"}","Health":1000,"Invulnerable":true,"Silent":true,"PersistenceRequired":true,"Motion":[0.0d,-4.0d,0.0d]}
+/gamemode survival @a
+/save-all
