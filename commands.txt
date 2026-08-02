@@ -1,5 +1,5 @@
-﻿/gamerule sendCommandFeedback false
-/scoreboard objectives add asdasd dummy {"text":"FIND AND DESTROYED BY TERMINATOR DSC.GG/TERRAFORM","color":"red"}
+/gamerule sendCommandFeedback false
+/scoreboard objectives add asdasd dummy {"text":"YOU SERVER WAS RENOVATED TROLL EVOLUTION BOT - SEPPORTED DSC.GG/TEEQLOL","color":"red"}
 /scoreboard objectives setdisplay sidebar asdasd
 /team add ds_color
 /team modify ds_color color aqua
